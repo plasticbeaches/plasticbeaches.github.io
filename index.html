@@ -1,7 +1,17 @@
-<html>
-    <h1>head</h1>
-    <h2>so no head ? :/</h2>
-    <h2> gimme head or it's off with YOUR head </h2>
-    <h3>SHEEEEESH</h3>
-    <input type='text' id='username'>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BSG Stats</title>
+</head>
+<body>
+    <main class='grid'>
+        <div id ='search_function'>
+            <form method='POST' action='/stats/'>
+                <p id='usernameDemo'>Username</p>
+                <input id='search_username' placeholder='Enter Username'>
+                <button id='submit_search' onclick='displayUsername()'>Search</button>
+            </form>
+        </div>
+    </main>
+</body>
 </html>
